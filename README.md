@@ -38,7 +38,7 @@ volume = {},
 pages = {},
 year = {202X},
 url = {https://www.},
-author = {Lisheng Wen and Sentao Chen and Mengying Xie and Cheng Liu and Lin Zheng}
+author = {..}
 }
 
-If you have any questions regarding the code, please contact email [cylin@hainanu.edu.cn](mailto:lishengwenmail@126.com).
+If you have any questions regarding the code, please contact email [cylin@hainanu.edu.cn](mailto:cylin@hainanu.edu.cn).
