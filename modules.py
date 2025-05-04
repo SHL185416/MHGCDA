@@ -129,7 +129,7 @@ def node_level_graph_contrastive_loss(z1: torch.Tensor, z2: torch.Tensor, tau, i
     between_sim = f(sim(z1, z2, hidden_norm))
     molecule = (between_sim.mul(inter_adj)).sum(1)
     nei_count = torch.sum(inter_adj, 1)
-    nei_count = torch.squeeze(torch.tensor(nei_count))
+    nei_count = torch.squeeze(nei_count.clone().detach())
     if is_source_anchor:
         denominator = (between_sim.mul(target_label_indicator)).sum(1)
     else:

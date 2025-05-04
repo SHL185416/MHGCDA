@@ -236,9 +236,9 @@ for random_state in range(args.random_number, numRandom):
             pred_prob_xs_list = [0] * num_source
             for i in range(num_source):
                 pred_prob_xs_list[i] = F.sigmoid(pred_logit_s_list[i]) if clf_type == 'multi-label' else F.softmax(
-                    pred_logit_s_list[i])
+                    pred_logit_s_list[i], dim=1)
             pred_prob_xt = F.sigmoid(pred_logit_t_withWK) if clf_type == 'multi-label' else F.softmax(
-                pred_logit_t_withWK)
+                pred_logit_t_withWK, dim=1)
             # 7.4 Calculate s-t f1_scores
             for i in range(num_source):
                 f1_s = f1_scores(pred_prob_xs_list[i].cpu(), Y_s_list[i])
