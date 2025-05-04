@@ -2,7 +2,7 @@
 
 ![model](https://gitee.com/l18541900/picgo/raw/master/img/202403261027391.png)
 
-This repository provides the Pytorch code for the work "Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification" published in XXX, 202X.
+This repository provides the Pytorch code for the work "Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification" published in Expert Systems with Applications, 2025.
 
 
 
@@ -19,7 +19,6 @@ The code has been tested running under the required packages as follows:
 - numpy==1.24.4
 - scipy==1.8.1
 - scikit-learn==1.1.1
-- sklearn==0.0
 
 #### Dataset folder
 
@@ -42,14 +41,17 @@ python main.py --PP_wei=1 --Clf_wei=1 --NN_wei=1 --P_wei=1 --attn_drop=0.7 --bat
 
 For more details of this multi-source domain adaptation approach, please refer to the following work:
 
-@article{XXX,
-title = {Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification},
-journal = {},
-volume = {},
-pages = {},
-year = {202X},
-url = {https://www.},
-author = {Lisheng Wen and Sentao Chen and Mengying Xie and Cheng Liu and Lin Zheng}
+@article{LIN2025127900,
+title = {Hierarchical graph contrastive domain adaptation for multi-source cross-network node classification},
+journal = {Expert Systems with Applications},
+pages = {127900},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2025.127900},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417425015222},
+author = {Chuanyun Lin and Xi Zhou and Xiao Shen},
+keywords = {Graph Neural Network, Multi-source Cross-network Node Classification, Multi-source Domain Adaptation, Pseudo-labeling},
+abstract = {The current research on cross-network node classification primarily focuses on transferring knowledge from a single source network to classify nodes in a target network. To allow for a comprehensive capture of the diversity in data distributions across different source networks, our work investigates a more practical and challenging problem known as Multi-Source Cross-Network Node Classification (MSCNNC). The goal of MSCNNC is to classify nodes in a target network by leveraging the complementary knowledge from multiple source networks. To address the MSCNNC problem, we propose a novel Multi-source Hierarchical Graph Contrastive Domain Adaptation (MHGCDA) model. Firstly, MHGCDA designs a transferability weight learning module to measure the fitness between each source network and the target network based on information entropy. The transferability weights can dynamically adjust the contribution of the knowledge from different source networks, thereby effectively mitigating negative transfer and optimizing the adaptation process for the target network. Secondly, MHGCDA conducts class-aware hierarchical graph contrastive domain adaptation to reduce intra-class domain divergence while enlarging inter-class domain discrepancy at both node and prototype levels. Specifically, the node-level and prototype-level graph contrastive domain adaptation are devised to align the node embeddings and prototype embeddings of the same class between each source network and the target network. Lastly, MHGCDA employs a novel positive and negative pseudo-labeling strategy to assign positive pseudo-labels to target nodes highly likely to belong to a specific class, and negative pseudo-labels to those highly unlikely to belong to a specific class. Such positive and negative pseudo-labeled nodes are iteratively incorporated into self-training, refining pseudo-labels to promote class-aware hierarchical graph contrastive domain adaptation. Extensive experiments on benchmark datasets demonstrate the effectiveness of MHGCDA on the MSCNNC problem.}
 }
 
-If you have any questions regarding the code, please contact email [cylin@hainanu.edu.cn](mailto:lishengwenmail@126.com).
+If you have any questions regarding the code, please contact email [cylin@hainanu.edu.cn](mailto:cylin@hainanu.edu.cn).
