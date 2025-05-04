@@ -44,6 +44,7 @@ For more details of this multi-source domain adaptation approach, please refer t
 @article{LIN2025127900,
 title = {Hierarchical graph contrastive domain adaptation for multi-source cross-network node classification},
 journal = {Expert Systems with Applications},
+volume = {284},
 pages = {127900},
 year = {2025},
 issn = {0957-4174},
