@@ -14,12 +14,12 @@ All experiments were conducted on a system equipped with dual RTX 3080 GPUs (20G
 
 The code has been tested running under the required packages as follows:
 
-torch==1.13.0+cu116
-dgl==0.6.1
-numpy==1.24.4
-scipy==1.8.1
-scikit-learn==1.1.1
-sklearn==0.0
+- torch==1.13.0+cu116
+- dgl==0.6.1
+- numpy==1.24.4
+- scipy==1.8.1
+- scikit-learn==1.1.1
+- sklearn==0.0
 
 #### Dataset folder
 
