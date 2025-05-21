@@ -4,10 +4,6 @@
 
 This repository provides the Pytorch code for the work "Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification" published in Expert Systems with Applications, 2025.
 
-
-
-Our work investigates a more realistic CNNC problem called Multi-Source Cross-Network Node Classification (MSCNNC), aiming to accurately classify nodes in a target network by leveraging the complementary knowledge from multiple source networks. To address the MSCNNC problem, we propose a novel Multi-source Hierarchical Graph Contrastive Domain Adaptation (MHGCDA) model. Firstly, MHGCDA designs a transferability weight learning module to measure the fitness between each source network and the target network based on information entropy, thus controlling the influence of each source network knowledge on the target network. Secondly, MHGCDA conducts hierarchical graph contrastive domain adaptation to alleviate intra-class domain divergence while expanding inter-class domain discrepancy at both node and prototype levels. Lastly, MHGCDA employs a novel pseudo-labeling strategy to assign positive pseudo-labels to target nodes highly likely to belong to a specific class and negative pseudo-labels to those highly unlikely to belong to a specific class. By taking such target nodes with positive or negative pseudo-labels to iteratively re-train the model in a self-training manner, more accurate pseudo-labels can be obtained to assist in class-aware domain alignment between source and target networks.
-
 #### Environment requirement
 
 All experiments were conducted on a system equipped with dual RTX 3080 GPUs (20GB each), a 12-core Intel Xeon Platinum 8352V CPU @ 2.10GHz, and 48GB of RAM.
