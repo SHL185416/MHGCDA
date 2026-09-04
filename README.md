@@ -1,6 +1,8 @@
 # Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification (MHGCDA)
 
-![model](https://gitee.com/l18541900/picgo/raw/master/img/202403261027391.png)
+<div align="center">
+  <img src="https://gitee.com/l18541900/picgo/raw/master/img/202403261027391.png" alt="model">
+</div>
 
 This repository provides the Pytorch code for the work "Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification" published in Expert Systems with Applications, 2025.
 
@@ -37,14 +39,6 @@ python main.py --PP_wei=1 --Clf_wei=1 --NN_wei=1 --P_wei=1 --attn_drop=0.7 --bat
 
 For more details of this multi-source domain adaptation approach, please refer to the following work:
 
-@article{LIN2025127900,
-title = {Hierarchical graph contrastive domain adaptation for multi-source cross-network node classification},
-journal = {Expert Systems with Applications},
-volume = {284},
-pages = {127900},
-year = {2025},
-issn = {0957-4174},
-author = {Chuanyun Lin and Xi Zhou and Xiao Shen}
-}
+> C. Lin, X. Zhou, and X. Shen, "Hierarchical graph contrastive domain adaptation for multi-source cross-network node classification," *Expert Systems with Applications*, vol. 284, p. 127900, 2025, doi: 10.1016/j.eswa.2025.127900.
 
-If you have any questions regarding the code, please contact email [cylin@hainanu.edu.cn](mailto:cylin@hainanu.edu.cn).
+If you have any questions regarding the code, please contact email [1936340910@qq.com](mailto:1936340910@qq.com).
