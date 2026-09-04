@@ -1,8 +1,6 @@
 # Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification (MHGCDA)
 
-<div align="center">
-  <img src="https://gitee.com/l18541900/picgo/raw/master/img/202403261027391.png" alt="model">
-</div>
+![model](https://gitee.com/l18541900/picgo/raw/master/img/202403261027391.png)
 
 This repository provides the Pytorch code for the work "Hierarchical Graph Contrastive Domain Adaptation for Multi-source Cross-network Node Classification" published in Expert Systems with Applications, 2025.
 
